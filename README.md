@@ -2,7 +2,7 @@
 
 FL-PedBrain: A Federated Learning AI Platform for Pediatric Brain Tumors, an International Study
 
-Cleaned code will be released shortly.
+There are two implementations of the FL algorithm. The first performs client-side training on dedicated devices (GPUs) - 1 client (hospital site) per device. The other performs all client-side training in 1 device. Use the latter if GPU memory can fit all 16 sites' training graphs.   
 
 ## Description
 
