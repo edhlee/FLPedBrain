@@ -30,5 +30,5 @@ site_idx=0
 #     noise_multiplier=0.001
 
 global_client_idx=0
-CUDA_VISIBLE_DEVICES="0" python3 fed_prox_16modelsInsideOne.py $global_client_idx $batch_size True 10 0.9 False $i $global_client_idx $clients $local_epochs \
+CUDA_VISIBLE_DEVICES="0" python3 fed_adv_AllSitesOnHost.py $global_client_idx $batch_size True 10 0.9 False $i $global_client_idx $clients $local_epochs \
 	$use_iid_data $client_frac $v $site_idx $l2_norm_clip $noise_multiplier $num_microbatches $use_only_synths  &
