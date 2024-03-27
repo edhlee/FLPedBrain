@@ -6,8 +6,7 @@ There are two implementations of the FL algorithm. The first performs client-sid
 
 Note: For our current real-time FL project with hospitals (not simulated), please contact me directly.
 
-More details (with organized data) to come shortly!
-
+The dataset (https://doi.org/10.25740/bf070wx6289) is to be released gradually due to the different approval processes from all the participating sites.
 
 ## Description
 
