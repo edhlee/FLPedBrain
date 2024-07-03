@@ -9,7 +9,7 @@ Note: For our current real-time FL project with hospitals (not simulated), pleas
 The dataset (https://doi.org/10.25740/bf070wx6289) is to be released.
 
 Update - July 3, 2024: 
-Anonymized static frames are released for the training set split across 19 sites. The DICOMs are too large for release, and we will be looking for ways to efficiently and securely transmit this. We upload a sample set.
+Anonymized static frames (data_as_frames.zip) are released for the training set split across the sites. The DICOMs are too large for release, and we will be looking for ways to efficiently and securely transmit this. 
 
 ## Description
 
