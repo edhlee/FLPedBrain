@@ -1,2 +1,23 @@
+# Model weights
 *.h5
+*.pth
+*.pt
 
+# Data files
+*.npy
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Logs and checkpoints
+logs/
+checkpoints/
+pretrained_weights/
+
+# Environment
+.env
+*.egg-info/

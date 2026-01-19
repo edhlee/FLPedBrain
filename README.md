@@ -2,14 +2,32 @@
 
 FL-PedBrain: A Federated Learning AI Platform for Pediatric Brain Tumors, an International Study
 
-There are two implementations of the FL algorithm. The first performs client-side training on dedicated devices (GPUs) - 1 client (hospital site) per device. The other performs all client-side training in 1 device. Use the latter if GPU memory can fit all 16 sites' training graphs.   
+If you find this project useful, please give it a star!
+
+## Implementations
+
+This repository contains two implementations of our FL project. 
+
+| Implementation | Description | Status |
+|----------------|-------------|--------|
+| [FLPedBrain-TF](./FLPedBrain-TF/) | Original TensorFlow implementation in paper | Stable |
+| [FLPedBrain-PyTorch](./FLPedBrain-PyTorch/) | PyTorch port modern features | **Future support** |
+
+The **PyTorch version** is recommended for new projects (2025+) as it supports modern model architectures. 
+
+## Data
+
+The raw dataset is available at the Stanford Digital Repository: [https://doi.org/10.25740/bf070wx6289](https://doi.org/10.25740/bf070wx6289)
+
+For convenience, we have also compiled the processed training data (pickle files) on Hugging Face: [https://huggingface.co/datasets/edhlee/FLPedBrain-processed](https://huggingface.co/datasets/edhlee/FLPedBrain-processed)
+
+
+
+## About
+
+In our original TF version, there are two implementations of the FL algorithm. The first performs client-side training on dedicated devices (GPUs) - 1 client (hospital site) per device. The other performs all client-side training in 1 device. Use the latter if GPU memory can fit all 16 sites' training graphs.
 
 Note: For our current real-time FL project with hospitals (not simulated), please contact us directly.
-
-The dataset (https://doi.org/10.25740/bf070wx6289) is to be released.
-
-Update - July 3, 2024: 
-Anonymized static frames (data_as_frames.zip) are released for the training set split across the sites. The DICOMs are too large for release, and we will be looking for ways to efficiently and securely transmit this. 
 
 ## Description
 
@@ -17,8 +35,3 @@ While multiple factors, both biological and external, impact disease, AI studies
 
 <img width="468" alt="image" src="https://github.com/edhlee/FLPedBrain/assets/12375462/0309e543-b9a4-4eb5-9e55-339b5fe74dc5">
 
-
-An app (see below) for human consumption is also slated for release along with a multimodal LLM assisting each site's local clinical representative.
-
-
-<img width="468" alt="image" src="https://raw.githubusercontent.com/edhlee/FLPedBrain/master/app_screenshot_alphabuild.jpg">
