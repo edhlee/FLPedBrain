@@ -84,7 +84,7 @@ Each `.npy` file contains a dictionary with:
 
 ## Pretrained Checkpoint
 
-A pretrained model checkpoint is available on Hugging Face:
+Our Pytorch-version that was trained with FL. This checkpoint is available on Hugging Face:
 
 | Checkpoint | Description |
 |------------|-------------|
