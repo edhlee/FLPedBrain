@@ -62,6 +62,9 @@ These demos show end-to-end workflows including:
 - Generating segmentation overlay videos (MP4)
 - Comparing model predictions side-by-side
 
+- Example demo of DIPG case in 2026, out of distribution. <img width="986" height="366" alt="image" src="https://github.com/user-attachments/assets/17e23840-8183-4cf7-8f49-37aacd06541f" />
+
+
 ### Example Segmentation Videos (CDS vs FL)
 
 | Tumor Type | Video Link |
