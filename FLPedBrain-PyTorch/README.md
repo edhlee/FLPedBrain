@@ -64,9 +64,12 @@ These demos show end-to-end workflows including:
 
 ### Example Segmentation Videos (CDS vs FL)
 
-| DIPG | Ependymoma | Medulloblastoma | Pilocytic Astrocytoma |
-|:----:|:----------:|:---------------:|:---------------------:|
-| <video src="https://huggingface.co/datasets/edhlee/FLPedBrain-processed/resolve/main/demos/DIPG_Case_A_cds_vs_fl.mp4" width="200" controls></video> | <video src="https://huggingface.co/datasets/edhlee/FLPedBrain-processed/resolve/main/demos/EPEN_01_cds_vs_fl.mp4" width="200" controls></video> | <video src="https://huggingface.co/datasets/edhlee/FLPedBrain-processed/resolve/main/demos/MEDU_05_cds_vs_fl.mp4" width="200" controls></video> | <video src="https://huggingface.co/datasets/edhlee/FLPedBrain-processed/resolve/main/demos/PILO_07_cds_vs_fl.mp4" width="200" controls></video> |
+| Tumor Type | Video Link |
+|------------|------------|
+| DIPG | [View Video](https://huggingface.co/datasets/edhlee/FLPedBrain-processed/resolve/main/demos/DIPG_Case_A_cds_vs_fl.mp4) |
+| Ependymoma | [View Video](https://huggingface.co/datasets/edhlee/FLPedBrain-processed/resolve/main/demos/EPEN_01_cds_vs_fl.mp4) |
+| Medulloblastoma | [View Video](https://huggingface.co/datasets/edhlee/FLPedBrain-processed/resolve/main/demos/MEDU_05_cds_vs_fl.mp4) |
+| Pilocytic Astrocytoma | [View Video](https://huggingface.co/datasets/edhlee/FLPedBrain-processed/resolve/main/demos/PILO_07_cds_vs_fl.mp4) |
 
 More demo videos available in the [demos folder on Hugging Face](https://huggingface.co/datasets/edhlee/FLPedBrain-processed/tree/main/demos).
 
