@@ -82,6 +82,26 @@ Each `.npy` file contains a dictionary with:
 - `ys_uint8`: Segmentation masks, shape `(N, 256, 256, 64)`, dtype `uint8`
 - `label_classes`: Classification tumor labels, shape `(N,)`, dtype `int`
 
+## Pretrained Checkpoint
+
+A pretrained model checkpoint is available on Hugging Face:
+
+| Checkpoint | Description |
+|------------|-------------|
+| [FLPedBrain_ckpt.pth](https://huggingface.co/datasets/edhlee/FLPedBrain-processed/resolve/main/checkpoints/FLPedBrain_ckpt.pth) | Pretrained model for inference |
+
+To load the checkpoint:
+
+```python
+import torch
+from model import BrainSegmentationModel
+
+model = BrainSegmentationModel(pretrained=False)
+checkpoint = torch.load('checkpoints/FLPedBrain_ckpt.pth')
+model.load_state_dict(checkpoint['model_state_dict'])
+model.eval()
+```
+
 ## Installation
 
 ```bash
